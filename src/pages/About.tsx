@@ -20,7 +20,7 @@ function AboutContent() {
         Producer. BA: Brown University.
       </p>
       <a
-        href="./public/files/Sabel_Resume_Summer_24.pdf"
+        href="./files/Sabel_Resume_Summer_24.pdf"
         className="font-regular justify-self-end"
         download
       >
