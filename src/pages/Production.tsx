@@ -28,6 +28,8 @@ function ProductionContent() {
     },
   };
 
+  if (!production) return <div>Production not found!</div>;
+
   return (
     <div className="flex flex-col pl-20 gap-5 pb-5">
       <div className="w-1/2">
@@ -45,7 +47,7 @@ function ProductionContent() {
             {production?.images.map((image) => {
               return (
                 <div key={image}>
-                  <img src={image} />
+                  <img src={image} loading="lazy" />
                 </div>
               );
             })}

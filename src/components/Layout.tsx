@@ -47,16 +47,16 @@ function Layout({ showContactInfo, selectedPage, content }: ILayoutProps) {
           <div className="flex flex-col gap-3">
             <p className="text-black text-lg font-medium">CONTACT</p>
             <div className="flex flex-col gap-10">
-              <p className="text-black text-md font-regular">
-                <div>Representation</div>
-                <div>Adam Turkel, WME</div>
-                <div>aturkel@wmeagency.com</div>
-              </p>
-              <p className="text-black text-md font-regular">
-                <div>Personal</div>
-                <div>francescasabel18@gmail.com</div>
-                <div>(646) 599-4867</div>
-              </p>
+              <span className="text-black text-md font-regular">
+                <p>Representation</p>
+                <p>Adam Turkel, WME</p>
+                <p>aturkel@wmeagency.com</p>
+              </span>
+              <span className="text-black text-md font-regular">
+                <p>Personal</p>
+                <p>francescasabel18@gmail.com</p>
+                <p>(646) 599-4867</p>
+              </span>
             </div>
           </div>
         )}

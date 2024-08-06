@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 function AboutContent() {
   return (
     <div className="h-full flex flex-col items-center gap-3 overflow-scroll">
-      <img src="./images/Sabel_Headshot.jpeg" className="w-5/12" />
+      <img src="/images/Sabel_Headshot.jpeg" className="w-5/12" />
       <p className="font-regular w-7/12">
         Francesca Sabel is a Brooklyn-based director specializing in new play
         development. Her work aims to be 'easy to enter and difficult to leave,'
@@ -20,7 +20,7 @@ function AboutContent() {
         Producer. BA: Brown University.
       </p>
       <a
-        href="./files/Sabel_Resume_Summer_24.pdf"
+        href="/files/Sabel_Resume_Summer_24.pdf"
         className="font-regular justify-self-end"
         download
       >
