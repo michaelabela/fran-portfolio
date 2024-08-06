@@ -10,16 +10,16 @@ export const productions: IProduction[] = [
       </div>
     ),
     images: [
-      "./production-images/homofermenters/homofermenters-35.jpg",
-      "./production-images/homofermenters/homofermenters-47.jpg",
-      "./production-images/homofermenters/homofermenters-57.jpg",
-      "./production-images/homofermenters/homofermenters-93.jpg",
-      "./production-images/homofermenters/homofermenters-94.jpg",
-      "./production-images/homofermenters/homofermenters-122.jpg",
-      "./production-images/homofermenters/homofermenters-124.jpg",
-      "./production-images/homofermenters/homofermenters-140.jpg",
-      "./production-images/homofermenters/homofermenters-143.jpg",
-      "./production-images/homofermenters/homofermenters-173.jpg",
+      "./images/production-images/homofermenters/homofermenters-35.jpg",
+      "./images/production-images/homofermenters/homofermenters-47.jpg",
+      "./images/production-images/homofermenters/homofermenters-57.jpg",
+      "./images/production-images/homofermenters/homofermenters-93.jpg",
+      "./images/production-images/homofermenters/homofermenters-94.jpg",
+      "./images/production-images/homofermenters/homofermenters-122.jpg",
+      "./images/production-images/homofermenters/homofermenters-124.jpg",
+      "./images/production-images/homofermenters/homofermenters-140.jpg",
+      "./images/production-images/homofermenters/homofermenters-143.jpg",
+      "./images/production-images/homofermenters/homofermenters-173.jpg",
     ],
   },
   {
@@ -43,7 +43,7 @@ export const productions: IProduction[] = [
         <p>24 Hour Plays: Nationals Classic Stage Company</p>
       </div>
     ),
-    images: ["./production-images/swim/swim01.jpg"],
+    images: ["./images/production-images/swim/swim01.jpg"],
   },
   {
     id: "screech_owl",
@@ -63,8 +63,8 @@ export const productions: IProduction[] = [
       </div>
     ),
     images: [
-      "./production-images/screech_owl/so02.JPG",
-      "./production-images/screech_owl/so01.JPG",
+      "./images/production-images/screech_owl/so02.JPG",
+      "./images/production-images/screech_owl/so01.JPG",
     ],
   },
   {
@@ -84,9 +84,9 @@ export const productions: IProduction[] = [
       </div>
     ),
     images: [
-      "./production-images/this_is_what_the_days_are/this03.jpeg",
-      "./production-images/this_is_what_the_days_are/this02.jpeg",
-      "./production-images/this_is_what_the_days_are/this01.JPG",
+      "./images/production-images/this_is_what_the_days_are/this03.jpeg",
+      "./images/production-images/this_is_what_the_days_are/this02.jpeg",
+      "./images/production-images/this_is_what_the_days_are/this01.JPG",
     ],
   },
   {
@@ -114,8 +114,8 @@ export const productions: IProduction[] = [
       </div>
     ),
     images: [
-      "./production-images/your_own_personal_exegesis/your01.jpeg",
-      "./production-images/your_own_personal_exegesis/your02.jpeg",
+      "./images/production-images/your_own_personal_exegesis/your01.jpeg",
+      "./images/production-images/your_own_personal_exegesis/your02.jpeg",
     ],
   },
   {
@@ -138,7 +138,7 @@ export const productions: IProduction[] = [
         <p>Brown University</p>
       </div>
     ),
-    images: ["./production-images/belleville/belleville01.JPG"],
+    images: ["./images/production-images/belleville/belleville01.JPG"],
   },
   {
     id: "gone_missing",
@@ -167,9 +167,9 @@ export const productions: IProduction[] = [
       </div>
     ),
     images: [
-      "./production-images/gone_missing/gone01.jpg",
-      "./production-images/gone_missing/gone02.jpg",
-      "./production-images/gone_missing/gone03.jpg",
+      "./images/production-images/gone_missing/gone01.jpg",
+      "./images/production-images/gone_missing/gone02.jpg",
+      "./images/production-images/gone_missing/gone03.jpg",
     ],
   },
 ];

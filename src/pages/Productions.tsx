@@ -19,6 +19,7 @@ function ProductionsContent() {
               <img
                 className="object-cover w-full h-full"
                 src={production.images[0]}
+                loading="lazy"
               />
             </div>
             <p className="text-center mt-2">{production.title}</p>
