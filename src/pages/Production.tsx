@@ -44,7 +44,7 @@ function ProductionContent() {
           >
             {production?.images.map((image) => {
               return (
-                <div>
+                <div key={image}>
                   <img src={image} />
                 </div>
               );
