@@ -11,7 +11,7 @@ function Layout({ showContactInfo, selectedPage, content }: ILayoutProps) {
   const navigate = useNavigate();
 
   return (
-    <div className="grid grid-cols-5 grid-rows-7 min-h-screen">
+    <div className="grid grid-cols-5 grid-rows-7 max-h-screen min-h-screen">
       <div className="col-span-5 p-10">
         <h1
           className="text-4xl text-black font-semibold cursor-pointer"
