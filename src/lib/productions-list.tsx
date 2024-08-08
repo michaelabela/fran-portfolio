@@ -23,6 +23,60 @@ export const productions: IProduction[] = [
     ],
   },
   {
+    id: "gone_missing",
+    title: "GONE MISSING",
+    content: (
+      <div className="flex flex-col gap-5">
+        <span>
+          <p>by The Civilians</p>
+          <p>directed by Francesca Sabel</p>
+        </span>
+        <p>
+          starring Masha Breeze, Kyle Brier, Patrick Elizalde, Faith Hardy, Owen
+          Ryan, and Haley Wong
+        </p>
+        <p>
+          designed by Francesca Sabel (space), Jason Goodman (lights), Akari
+          Izumi (sound), Maaike Laanstra-Corn (costumes)
+        </p>
+        <span>
+          <p>music directed by Caymus Price</p>
+          <p>choreographed by Riya Kothari</p>
+          <p>staged managed by Miriam Arden</p>
+          <p>assistant directed by Dylan Lewis</p>
+        </span>
+        <p>Brown University</p>
+      </div>
+    ),
+    images: [
+      "/images/production-images/gone_missing/gone01.jpg",
+      "/images/production-images/gone_missing/gone02.jpg",
+      "/images/production-images/gone_missing/gone03.jpg",
+    ],
+  },
+  {
+    id: "this_is_what_the_days_are",
+    title: "THIS IS WHAT THE DAYS ARE",
+    content: (
+      <div className="flex flex-col gap-5">
+        <span>
+          <p>By Madison Fiedler</p>
+          <p>Directed by Francesca Sabel</p>
+        </span>
+        <p>
+          Starring Moe Angelos, John Behlmann, Kayli Carter, Francis Jue, Nicole
+          Villamil
+        </p>
+        <p>Atlantic Theater Company/tall poPpy</p>
+      </div>
+    ),
+    images: [
+      "/images/production-images/this_is_what_the_days_are/this03.jpeg",
+      "/images/production-images/this_is_what_the_days_are/this02.jpeg",
+      "/images/production-images/this_is_what_the_days_are/this01.JPG",
+    ],
+  },
+  {
     id: "swim",
     title: "SWIM",
     content: (
@@ -65,28 +119,6 @@ export const productions: IProduction[] = [
     images: [
       "/images/production-images/screech_owl/so02.JPG",
       "/images/production-images/screech_owl/so01.JPG",
-    ],
-  },
-  {
-    id: "this_is_what_the_days_are",
-    title: "THIS IS WHAT THE DAYS ARE",
-    content: (
-      <div className="flex flex-col gap-5">
-        <span>
-          <p>By Madison Fiedler</p>
-          <p>Directed by Francesca Sabel</p>
-        </span>
-        <p>
-          Starring Moe Angelos, John Behlmann, Kayli Carter, Francis Jue, Nicole
-          Villamil
-        </p>
-        <p>Atlantic Theater Company/tall poPpy</p>
-      </div>
-    ),
-    images: [
-      "/images/production-images/this_is_what_the_days_are/this03.jpeg",
-      "/images/production-images/this_is_what_the_days_are/this02.jpeg",
-      "/images/production-images/this_is_what_the_days_are/this01.JPG",
     ],
   },
   {
@@ -139,37 +171,5 @@ export const productions: IProduction[] = [
       </div>
     ),
     images: ["/images/production-images/belleville/belleville01.JPG"],
-  },
-  {
-    id: "gone_missing",
-    title: "GONE MISSING",
-    content: (
-      <div className="flex flex-col gap-5">
-        <span>
-          <p>by The Civilians</p>
-          <p>directed by Francesca Sabel</p>
-        </span>
-        <p>
-          starring Masha Breeze, Kyle Brier, Patrick Elizalde, Faith Hardy, Owen
-          Ryan, and Haley Wong
-        </p>
-        <p>
-          designed by Francesca Sabel (space), Jason Goodman (lights), Akari
-          Izumi (sound), Maaike Laanstra-Corn (costumes)
-        </p>
-        <span>
-          <p>music directed by Caymus Price</p>
-          <p>choreographed by Riya Kothari</p>
-          <p>staged managed by Miriam Arden</p>
-          <p>assistant directed by Dylan Lewis</p>
-        </span>
-        <p>Brown University</p>
-      </div>
-    ),
-    images: [
-      "/images/production-images/gone_missing/gone01.jpg",
-      "/images/production-images/gone_missing/gone02.jpg",
-      "/images/production-images/gone_missing/gone03.jpg",
-    ],
   },
 ];

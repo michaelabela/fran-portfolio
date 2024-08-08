@@ -11,7 +11,7 @@ function Layout({ showContactInfo, selectedPage, content }: ILayoutProps) {
   const navigate = useNavigate();
 
   return (
-    <div className="grid grid-cols-5 grid-rows-7 max-h-screen min-h-screen">
+    <div className="grid grid-cols-5 grid-rows-8 max-h-screen min-h-screen">
       <div className="col-span-5 p-10">
         <h1
           className="text-4xl text-black font-semibold cursor-pointer"
@@ -19,8 +19,9 @@ function Layout({ showContactInfo, selectedPage, content }: ILayoutProps) {
         >
           Francesca Sabel
         </h1>
+        <p className="font-mediumSerif text-3xl italic">Director</p>
       </div>
-      <div className="row-span-6 p-10 flex flex-col justify-between">
+      <div className="row-span-7 p-10 flex flex-col justify-between">
         <div className="flex flex-col gap-10">
           <div
             className={`w-fit cursor-pointer ${
@@ -42,10 +43,22 @@ function Layout({ showContactInfo, selectedPage, content }: ILayoutProps) {
           >
             <p className="text-lg font-medium">PRODUCTIONS</p>
           </div>
+          <div
+            className={`w-fit cursor-pointer ${
+              selectedPage === "news & upcoming"
+                ? `bg-customGreen text-white`
+                : `bg-customGreen/20 hover:bg-customGreen/50 text-black`
+            }`}
+            onClick={() => navigate("/upcoming")}
+          >
+            <p className="text-lg font-medium">NEWS & UPCOMING</p>
+          </div>
         </div>
         {showContactInfo && (
           <div className="flex flex-col gap-3">
-            <p className="text-black text-lg font-medium">CONTACT</p>
+            <p className="text-black text-lg font-medium bg-customGreen/20 w-fit">
+              CONTACT
+            </p>
             <div className="flex flex-col gap-10">
               <span className="text-black text-md font-regular">
                 <p>Representation</p>
@@ -61,7 +74,7 @@ function Layout({ showContactInfo, selectedPage, content }: ILayoutProps) {
           </div>
         )}
       </div>
-      <div className="col-span-4 row-span-6 pt-10 pr-10 pb-10 h-full">
+      <div className="col-span-4 row-span-7 pt-10 pr-10 mb-10 h-full">
         {content}
       </div>
     </div>

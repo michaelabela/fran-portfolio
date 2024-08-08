@@ -6,6 +6,7 @@ import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
 import Productions from "./pages/Productions.tsx";
 import Production from "./pages/Production.tsx";
+import Upcoming from "./pages/Upcoming.tsx";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     element: <Productions />,
   },
   { path: "/productions/:productionId", element: <Production /> },
+  { path: "/upcoming", element: <Upcoming /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

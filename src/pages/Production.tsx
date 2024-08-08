@@ -31,33 +31,37 @@ function ProductionContent() {
   if (!production) return <div>Production not found!</div>;
 
   return (
-    <div className="flex flex-col pl-20 gap-5 pb-5">
-      <div className="w-1/2">
-        {production?.images.length && production?.images.length > 1 ? (
-          <Carousel
-            responsive={responsive}
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={4000}
-            keyBoardControl={true}
-            transitionDuration={500}
-            slidesToSlide={1}
-            arrows={false}
-          >
-            {production?.images.map((image) => {
-              return (
-                <div key={image}>
-                  <img src={image} loading="lazy" />
-                </div>
-              );
-            })}
-          </Carousel>
-        ) : (
-          <img src={production?.images[0]} />
-        )}
+    <div className="flex w-full overflow-scroll h-full justify-center">
+      <div className="flex flex-col gap-5 w-2/3">
+        <div className="w-full">
+          {production?.images.length && production?.images.length > 1 ? (
+            <Carousel
+              responsive={responsive}
+              infinite={true}
+              autoPlay={true}
+              autoPlaySpeed={4000}
+              keyBoardControl={true}
+              transitionDuration={500}
+              slidesToSlide={1}
+              arrows={false}
+            >
+              {production?.images.map((image) => {
+                return (
+                  <div key={image}>
+                    <img src={image} loading="lazy" />
+                  </div>
+                );
+              })}
+            </Carousel>
+          ) : (
+            <img src={production?.images[0]} />
+          )}
+        </div>
+        <h3 className="text-xl font-medium w-fit bg-customGreen/20">
+          {production?.title}
+        </h3>
+        <span className="font-regular pb-10">{production?.content}</span>
       </div>
-      <h3 className="text-xl font-medium">{production?.title}</h3>
-      <span className="font-regular">{production?.content}</span>
     </div>
   );
 }

@@ -9,9 +9,12 @@ export default {
         regular: ["GeneralSans-Regular"],
         medium: ["GeneralSans-Medium"],
         semibold: ["GeneralSans-Semibold"],
+        regularSerif: ["Gambetta-Regular"],
+        mediumSerif: ["Gambetta-Medium"],
+        semiboldSerif: ["Gambetta-Semibold"],
       },
       colors: {
-        customGreen: "#63775A",
+        customGreen: "#52682d",
       },
     },
   },

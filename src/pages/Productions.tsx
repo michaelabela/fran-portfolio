@@ -7,7 +7,7 @@ function ProductionsContent() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-full grid grid-cols-3 gap-x-10 gap-y-12 overflow-scroll pl-20 pr-20">
+    <div className="h-full grid grid-cols-3 gap-x-10 gap-y-12 overflow-scroll pl-20 pr-20 pb-10">
       {productions.map((production: IProduction) => {
         return (
           <div
@@ -22,7 +22,9 @@ function ProductionsContent() {
                 loading="lazy"
               />
             </div>
-            <p className="text-center mt-2">{production.title}</p>
+            <p className="text-center text-lg mt-2 font-mediumSerif">
+              {production.title}
+            </p>
           </div>
         );
       })}
