@@ -3,8 +3,8 @@ import Layout from "../components/Layout";
 function AboutContent() {
   return (
     <div className="h-full flex flex-col items-center gap-3 overflow-scroll">
-      <img src="/images/Sabel_Headshot.jpeg" className="w-1/3" />
-      <p className="font-regular w-7/12">
+      <img src="/images/Sabel_Headshot.jpeg" className="lg:w-1/3 w-2/3" />
+      <p className="font-regular lg:w-7/12 w-10/12">
         Francesca Sabel is a Brooklyn-based director specializing in new play
         development. Her work aims to be 'easy to enter and difficult to leave,'
         emphasizing off-kilter rhythms, uncanny architectures, and structural

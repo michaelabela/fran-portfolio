@@ -7,7 +7,7 @@ function ProductionsContent() {
   const navigate = useNavigate();
 
   return (
-    <div className="h-full grid grid-cols-3 gap-x-10 gap-y-12 overflow-scroll pl-20 pr-20 pb-10">
+    <div className="h-full grid lg:grid-cols-3 grid-cols-1 gap-x-10 gap-y-12 overflow-scroll pl-20 pr-20 pb-10 z-1">
       {productions.map((production: IProduction) => {
         return (
           <div

@@ -9,7 +9,7 @@ interface IUpcomingContentEntryProps {
 function UpcomingContentEntry({ items }: IUpcomingContentEntryProps) {
   return items.map((item: IUpcoming) => {
     return (
-      <div className="pt-1 pb-1">
+      <div className="pt-1 pb-1" key={item.content}>
         {item.link ? (
           <a className="hover:bg-customGreen/20 font-regular" href={item.link}>
             {item.content}
@@ -35,7 +35,7 @@ function UpcomingContent() {
     <div className="flex w-full flex-col overflow-scroll h-full ">
       {sortedYears.map((year: number) => {
         return (
-          <div key={year} className="w-1/2 mx-auto pb-8">
+          <div key={year} className="lg:w-1/2 w-2/3 mx-auto pb-8">
             <h4 className="font-regular text-2xl text-customGreen p-lg">
               {year.toString()}
             </h4>

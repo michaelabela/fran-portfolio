@@ -109,7 +109,7 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2021",
     content:
-      "Graduating magna cum laude from Brown University with a B.A. in English &amp; History",
+      "Graduating magna cum laude from Brown University with a B.A. in English & History",
   },
   {
     year: "2021",

@@ -2,10 +2,10 @@ import Layout from "../components/Layout";
 
 function HomeContent() {
   return (
-    <div className="flex w-100 justify-center ">
+    <div className="flex w-100 justify-center pt-40 lg:pt-0">
       <img
         src={"/images/production-images/homofermenters/homofermenters-124.jpg"}
-        className="w-2/3"
+        className="lg:w-2/3 w-10/12"
       />
     </div>
   );

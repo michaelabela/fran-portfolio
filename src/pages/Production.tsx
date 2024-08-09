@@ -32,7 +32,7 @@ function ProductionContent() {
 
   return (
     <div className="flex w-full overflow-scroll h-full justify-center">
-      <div className="flex flex-col gap-5 w-2/3">
+      <div className="flex flex-col gap-5 lg:w-2/3 w-10/12">
         <div className="w-full">
           {production?.images.length && production?.images.length > 1 ? (
             <Carousel

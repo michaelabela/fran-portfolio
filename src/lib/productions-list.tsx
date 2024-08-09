@@ -5,8 +5,20 @@ export const productions: IProduction[] = [
     id: "homofermenters",
     title: "HOMOFERMENTERS",
     content: (
-      <div>
-        <p>TK</p>
+      <div className="flex flex-col gap-5">
+        <span>
+          <p>by Madison Fiedler</p>
+          <p>directed by Francesca Sabel</p>
+        </span>
+        <p>
+          starring Moe Angelos, Annie Fang, Kai Heath, Merritt Janson, Maaike
+          Laanstra-Corn, Becca Lish, Liva Pierce
+        </p>
+        <p>
+          designed by Jessie Baldinger (sets), Jonah Bobilin (lights), Michael
+          Rogerson (sound), Maddy Rosaler (costumes)
+        </p>
+        <p>ANTFest 2024 at Ars Nova</p>
       </div>
     ),
     images: [
