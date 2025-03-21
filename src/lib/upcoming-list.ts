@@ -2,6 +2,35 @@ import { IUpcoming } from "./types";
 
 export const upcomingList: IUpcoming[] = [
   {
+    year: "2025",
+    content:
+      "Directing Minna Lee’s play HEART OF PARASITE with Pipeline Theatre Company’s Playlab",
+  },
+  {
+    year: "2025",
+    content:
+      "Directing a second reading of Daniel Holzman’s OLIVES for LPAC’s Rough Draft Festival",
+    link: "https://www.laguardia.edu/event/rough-draft-festival-2025/2025-03-14/",
+  },
+  {
+    year: "2025",
+    content:
+      "Associate Director to Scott Elliot on Sam Shepard’s Curse of the Starving Class at The New Group",
+    link: "https://thenewgroup.org/events/curse-of-the-starving-class-2025-03-05-700-pm/seats/",
+  },
+  {
+    year: "2024",
+    content:
+      "Directing The Member of the Wedding as part of Classic Stage Company’s Rediscovery Readings",
+    link: "https://playbill.com/article/csc-presents-reading-of-the-member-of-the-wedding-december-2",
+  },
+  {
+    year: "2024",
+    content:
+      "Associate Director to Neil Pepe on Kenneth Lonergan’s Hold On To Me Darling, starring Adam Driver",
+    link: "https://playbill.com/production/hold-on-to-me-darling-off-broadway-lucille-lortel-theatre-2024",
+  },
+  {
     year: "2024",
     content: "Artist-in-Residence at Roundabout Director's Group Cohort 6",
     link: "https://www.broadwayworld.com/off-broadway/article/Roundabout-Reveals-2024-25-Directing-Fellow-and-Directors-Group-Cohort-20240625#:~:text=The%20sixth%20Roundabout%20Directors%20Group,Stamps%2C%20and%20Gregory%20Keng%20Strasser.",

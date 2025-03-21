@@ -2,6 +2,32 @@ import { IProduction } from "./types";
 
 export const productions: IProduction[] = [
   {
+    id: "member_of_the_wedding",
+    title: "THE MEMBER OF THE WEDDING",
+    content: (
+      <div className="flex flex-col gap-5">
+        <span>
+          <p>by Carson McCullers</p>
+          <p>directed by Francesca Sabel</p>
+        </span>
+        <p>
+          starring Kayli Carter, Lincoln Cohen, Crystal Fill, Hampton Fluker,
+          Andy Grotelueschen, Jake Horowitz, April Matthis, Caleb Reese Paul,
+          Bri Laurelle Queen, Ron Scott, and Fina Strazza
+        </p>
+        <p>staged managed by Kaitlin Marsh</p>
+        <p>Classic Stage Company’s 2025 Rediscovery Readings </p>
+      </div>
+    ),
+    images: [
+      "/images/production-images/member_of_the_wedding/member01.jpg",
+      "/images/production-images/member_of_the_wedding/member02.jpg",
+      "/images/production-images/member_of_the_wedding/member03.jpg",
+      "/images/production-images/member_of_the_wedding/member04.jpg",
+      "/images/production-images/member_of_the_wedding/member05.jpg",
+    ],
+  },
+  {
     id: "homofermenters",
     title: "HOMOFERMENTERS",
     content: (
