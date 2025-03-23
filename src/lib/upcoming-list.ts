@@ -15,19 +15,19 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2025",
     content:
-      "Associate Director to Scott Elliot on Sam Shepard’s Curse of the Starving Class at The New Group",
+      "Associate Director to Scott Elliot on Sam Shepard’s CURSE OF THE STARVING CLASS at The New Group",
     link: "https://thenewgroup.org/events/curse-of-the-starving-class-2025-03-05-700-pm/seats/",
   },
   {
     year: "2024",
     content:
-      "Directing The Member of the Wedding as part of Classic Stage Company’s Rediscovery Readings",
+      "Directing THE MEMBER OF THE WEDDING as part of Classic Stage Company’s Rediscovery Readings",
     link: "https://playbill.com/article/csc-presents-reading-of-the-member-of-the-wedding-december-2",
   },
   {
     year: "2024",
     content:
-      "Associate Director to Neil Pepe on Kenneth Lonergan’s Hold On To Me Darling, starring Adam Driver",
+      "Associate Director to Neil Pepe on Kenneth Lonergan’s HOLD ON TO ME DARLING, starring Adam Driver",
     link: "https://playbill.com/production/hold-on-to-me-darling-off-broadway-lucille-lortel-theatre-2024",
   },
   {
