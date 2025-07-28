@@ -4,6 +4,22 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2025",
     content:
+      "Developing Kallan Dana’s untitled air traffic controller play with Portland Theater Festival",
+  },
+  {
+    year: "2025",
+    content: "25-26 Artist in Residence at The Cell Theatre",
+    link: "https://www.thecelltheatre.org/residents",
+  },
+  {
+    year: "2025",
+    content:
+      "Directing Eliana Theologides-Rodriguez’s play ANGELS JUST LIKE YOU for Clubbed Thumb’s Career Writer’s Group series",
+    link: "https://www.clubbedthumb.org/productions/2025/",
+  },
+  {
+    year: "2025",
+    content:
       "Directing Minna Lee’s play HEART OF PARASITE with Pipeline Theatre Company’s Playlab",
   },
   {
@@ -38,19 +54,19 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2024",
     content:
-      "Directing  Daniel Holzman's play OLIVES for Clubbed Thumb's Early Career Writers' Group Readings series (NYC)",
+      "Directing  Daniel Holzman's play OLIVES for Clubbed Thumb's Early Career Writers' Group Readings series",
     link: "https://www.clubbedthumb.org/productions/2024/",
   },
   {
     year: "2024",
     content:
-      "Directing Madison Fiedler's HOMOFERMENTERS OR, THE PARK SLOPE CO-OP PLAY at Ars Nova's ANTFest (NYC)",
+      "Directing Madison Fiedler's HOMOFERMENTERS OR, THE PARK SLOPE CO-OP PLAY at Ars Nova's ANTFest",
     link: "https://arsnovanyc.com/events/homofermenters/",
   },
   {
     year: "2024",
     content:
-      "Assisting director Caitlin Sullivan on Crystal Finn's FIND ME HERE at Clubbed Thumb's Summerworks (NYC)",
+      "Assisting director Caitlin Sullivan on Crystal Finn's FIND ME HERE at Clubbed Thumb's Summerworks",
     link: "https://www.clubbedthumb.org/productions/2024/find-me-here-2/",
   },
   {
@@ -60,28 +76,28 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2024",
     content:
-      "Directing Madison Fiedler's THIS IS WHAT THE DAYS ARE for BEDLAM's 'Do More' Reading Series (NYC)",
+      "Directing Madison Fiedler's THIS IS WHAT THE DAYS ARE for BEDLAM's 'Do More' Reading Series",
     link: "https://www.broadwayworld.com/off-broadway/article/BEDLAM-Unveils-Readings-for-DO-MORE-NEW-PLAYS-Series-20240311",
   },
   {
     year: "2023",
     content:
-      "Directing a 29-hour reading of  THIS IS WHAT THE DAYS ARE at the Atlantic, featuring Francis Jue, with support from tall poPpy (NYC)",
+      "Directing a 29-hour reading of  THIS IS WHAT THE DAYS ARE at the Atlantic, featuring Francis Jue, with support from tall poPpy",
   },
   {
     year: "2023",
-    content: "Assisting director Liz Carlson on 24 Hour Plays: Broadway (NYC)",
+    content: "Assisting director Liz Carlson on 24 Hour Plays: Broadway",
     link: "https://24hourplays.org/broadway/",
   },
   {
     year: "2023",
-    content: "Director in the 24 Hour Plays: Nationals incubator (NYC)",
+    content: "Director in the 24 Hour Plays: Nationals incubator",
     link: "https://www.broadwayworld.com/article/THE-24-HOUR-PLAYS-Reveals-2023-Nationals-Company-20230613",
   },
   {
     year: "2023",
     content:
-      "Assisting director Caitlin Sullivan on Ruth Tang's WORK HARD HAVE FUN MAKE HISTORY, for Clubbed Thumb's Summerworks (NYC)",
+      "Assisting director Caitlin Sullivan on Ruth Tang's WORK HARD HAVE FUN MAKE HISTORY, for Clubbed Thumb's Summerworks",
     link: "https://www.clubbedthumb.org/productions/2023/work-hard-have-fun-make-history/",
   },
   {
@@ -92,7 +108,7 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2022",
     content:
-      "Assisting director Annie Tippe on a workshop of Julia May Jonas' YOUR OWN PERSONAL EXEGESIS at LCT3 in preparation for its  world premiere at the same theater (NYC)",
+      "Assisting director Annie Tippe on a workshop of Julia May Jonas' YOUR OWN PERSONAL EXEGESIS at LCT3 in preparation for its  world premiere at the same theater",
     link: "https://www.lct.org/shows/your-own-personal-exegesis/",
   },
   {
@@ -143,6 +159,6 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2021",
     content:
-      "Directing an independently-produced developmental workshop of Emma Horwitz' UNTITLED BABYSITTING PLAY (NYC)",
+      "Directing an independently-produced developmental workshop of Emma Horwitz' UNTITLED BABYSITTING PLAY",
   },
 ];
