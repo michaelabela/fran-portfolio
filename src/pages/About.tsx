@@ -2,38 +2,43 @@ import Layout from "../components/Layout";
 
 function AboutContent() {
   return (
-    <div className="h-full flex flex-col items-center gap-3 overflow-scroll">
+    <div className="h-full flex flex-col items-center gap-3 overflow-scroll pb-10">
       <img src="/images/Sabel_Headshot.jpeg" className="lg:w-1/3 w-2/3" />
       <p className="font-regular lg:w-7/12 w-10/12">
         Francesca Sabel is a Brooklyn-based director specializing in new play
         development. Her work aims to be 'easy to enter and difficult to leave,'
         emphasizing off-kilter rhythms, uncanny architectures, and structural
-        surprise. In addition to directing new work at venues including the
-        Atlantic Theater Company, Clubbed Thumb, Ars Nova, BEDLAM, New York City
-        Center, LPAC, and the Brick, she has assisted (mostly on world
-        premieres) for directors like Knud Adams, Caitlin Sullivan, Neil Pepe,
-        Steve Broadnax, and Sam Pinkleton. She is an Artist in Residence at the
-        Roundabout Directors Group, a member of the Tank Artists' Group for
-        playwrights and directors, an alum of 24 Hour Plays: Nationals, and a
-        reader for the Playwrights’ Center and Playwrights Realm. Previously,
-        she led casting and community engagement as Studio Theatre’s Creative
-        Producer. She is a graduate of Brown University where she studied
-        English and early American history.
+        surprise. In addition to directing new work at venues including Ars
+        Nova, the Atlantic Theater Company, the Brick, Classic Stage, Clubbed
+        Thumb, and the Playwrights’ Realm, she has assisted (mostly on world
+        premieres) for directors like Knud Adams, Steve Broadnax, Neil Pepe, and
+        Caitlin Sullivan. She has been an Artist in Residence at Roundabout
+        Theater Company, Portland Theater Festival, the Cell, and the Tank
+        Artists’ Group. Previously, she led casting and community engagement as
+        Studio Theatre’s Creative Producer (DC). She is a full member of SDC,
+        and a graduate of Brown University, where she studied English and early
+        American history.
       </p>
       <p className="font-regular lg:w-7/12 w-10/12">
-        Recently, Francesca directed{" "}
+        Up next, Francesca is developing new plays by{" "}
         <a
           className="font-regular lg:w-7/12 w-10/12"
-          href="https://playbill.com/article/csc-presents-reading-of-the-member-of-the-wedding-december-2"
+          href="https://www.broadwayworld.com/off-broadway/article/Kallan-Dana-Named-Working-Theater-Playwright-In-Residence-20250814"
         >
-          <u>The Member of the Wedding</u>
+          <u>Kallan Dana</u>
         </a>{" "}
-        as part of Classic Stage Company’s Rediscovery Readings, and was the
-        associate director on Kenneth Lonergan’s{" "}
-        <a href="https://playbill.com/production/hold-on-to-me-darling-off-broadway-lucille-lortel-theatre-2024">
-          <u>Hold On To Me Darling</u>
-        </a>{" "}
-        at the Lucille Lortel.
+        and{" "}
+        <a href="https://www.madisonfiedler.net/">
+          <u>Madison Fiedler</u>
+        </a>
+        , and serving as associate director to Annie Kauffman on Clare Barron’s{" "}
+        <a
+          className="font-regular lg:w-7/12 w-10/12"
+          href="https://cherrylanetheatre.org/shows/ygo"
+        >
+          <u>YOU GOT OLDER (Cherry Lane/A24)</u>
+        </a>
+        .
       </p>
       <a
         href="/files/Sabel_Resume_Spring_25.pdf"

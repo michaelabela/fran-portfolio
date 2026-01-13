@@ -7,9 +7,9 @@ interface IUpcomingContentEntryProps {
 }
 
 function UpcomingContentEntry({ items }: IUpcomingContentEntryProps) {
-  return items.map((item: IUpcoming) => {
+  return items.map((item: IUpcoming, index) => {
     return (
-      <div className="pt-1 pb-1" key={item.content}>
+      <div className="pt-1 pb-1" key={index}>
         {item.link ? (
           <a className="hover:bg-customGreen/20 font-regular" href={item.link}>
             {item.content}

@@ -2,6 +2,56 @@ import { IUpcoming } from "./types";
 
 export const upcomingList: IUpcoming[] = [
   {
+    year: "2026",
+    content:
+      "Directing a 29-hour reading of Madison Fiedler’s THIS IS WHAT THE DAYS ARE as the culmination of her year as a Playwrights’ Realm Writing Fellow",
+    link: "https://www.playwrightsrealm.org/all-playwrights/madison-fiedler-wf2526",
+  },
+  {
+    year: "2026",
+    content:
+      "Directing a workshop of Kallan Dana’s CONTROL, a new play about air traffic controllers, as part of her commission from The Working Theater",
+    link: "https://www.broadwayworld.com/off-broadway/article/Kallan-Dana-Named-Working-Theater-Playwright-In-Residence-20250814",
+  },
+  {
+    year: "2026",
+    content:
+      "Associate Director to Annie Kauffman on Clare Barron’s YOU GOT OLDER (Cherry Lane/A24)",
+    link: "https://cherrylanetheatre.org/shows/ygo",
+  },
+  {
+    year: "2025",
+    content: "Becoming a full member of SDC",
+    link: "https://www.instagram.com/p/DQKTvBpErDr/",
+  },
+  {
+    year: "2025",
+    content: (
+      <p className="font-regular">
+        Associate Director to Neil Pepe on{" "}
+        <a
+          className="hover:bg-customGreen/20 font-regular"
+          href="https://atlantictheater.org/production/lets-love/"
+        >
+          LET'S LOVE (Atlantic Theater Company)
+        </a>{" "}
+        and{" "}
+        <a
+          className="hover:bg-customGreen/20 font-regular"
+          href="https://www.todaytix.com/nyc/shows/45270-gruesome-playground-injuries"
+        >
+          GRUESOME PLAYGROUND INJURIES (WJP/Seaview)
+        </a>
+      </p>
+    ),
+  },
+  {
+    year: "2025",
+    content:
+      "Directing a public presentation of Lucille Fletcher’s NIGHT WATCH at Classic Stage Company, featuring Alison Pill and Nikki M. James ",
+    link: "https://www.classicstage.org/night-watch/",
+  },
+  {
     year: "2025",
     content:
       "Developing Kallan Dana’s untitled air traffic controller play with Portland Theater Festival",

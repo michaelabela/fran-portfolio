@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type TPage = "home" | "about" | "productions" | "news & upcoming";
 
 export interface IProduction {
@@ -9,6 +11,6 @@ export interface IProduction {
 
 export interface IUpcoming {
   year: string;
-  content: string;
+  content: string | ReactNode;
   link?: string;
 }
