@@ -41,7 +41,7 @@ function AboutContent() {
         .
       </p>
       <a
-        href="/files/Sabel_Resume_Spring_25.pdf"
+        href="/files/Sabel_Resume_Spring_2q5.pdf"
         className="font-regular justify-self-end hover:bg-customGreen/20"
         download
       >
