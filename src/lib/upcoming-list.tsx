@@ -4,13 +4,13 @@ export const upcomingList: IUpcoming[] = [
   {
     year: "2026",
     content:
-      "Directing a 29-hour reading of Madison Fiedler’s THIS IS WHAT THE DAYS ARE as the culmination of her year as a Playwrights’ Realm Writing Fellow",
+      "Directing a 29-hour reading of Madison Fiedler’s THIS IS WHAT THE DAYS ARE as the culmination of Madison's year as a Playwrights’ Realm Writing Fellow",
     link: "https://www.playwrightsrealm.org/all-playwrights/madison-fiedler-wf2526",
   },
   {
     year: "2026",
     content:
-      "Directing a workshop of Kallan Dana’s CONTROL, a new play about air traffic controllers, as part of her commission from The Working Theater",
+      "Directing a workshop of Kallan Dana’s CONTROL, a new play about air traffic controllers, as part of Kallan's commission from The Working Theater",
     link: "https://www.broadwayworld.com/off-broadway/article/Kallan-Dana-Named-Working-Theater-Playwright-In-Residence-20250814",
   },
   {
